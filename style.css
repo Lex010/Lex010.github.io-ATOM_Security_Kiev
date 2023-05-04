@@ -1,0 +1,29 @@
+body {
+background-image: url(istockphoto-520946900-612x612.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+height: 100%;
+width: 100%;
+}
+div{
+    display: flex;
+    justify-content: center;   
+}
+h1 {
+font-size: 65px;
+color: bisque;
+text-align: center;
+text-shadow: 1px 0 1px #000, /*контур цифры */
+0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
+
+
+top: 40%;
+height: 80px;
+width: 200px;
+
+background-color: rgba(0, 0, 255, 0.363);
+border-radius: 5px;
+}
