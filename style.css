@@ -1,14 +1,24 @@
+body {
+    margin: 0;
+}
 header {
     height: 120px;
     width: 100%;
     background: radial-gradient(#444,rgb(17, 17, 17) );
     border: rgb(211, 116, 0) solid 3px;
-    border-radius: 5px;
+    border-radius: 3px;
    border-left: none;
    border-right: none;
    border-top: none;
+
+   position: fixed;
+   z-index: 1000;
 }
 #first {
+    margin-top: 120px;
+   /**/ position: absolute;
+
+
  background: radial-gradient(bisque,#333 );
 /*background-image: url(istockphoto-520946900-612x612.jpg);
 background-repeat: no-repeat;
