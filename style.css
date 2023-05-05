@@ -184,5 +184,20 @@ border-radius: 5px;
 }
 /**/
 #footer {
+    height: 110px;
+    width: 100%;
 
+top: 1710px;                 /*отступ*/
+position: absolute;
+
+background-color: #333;
+border-top:  rgb(211, 116, 0) solid 3px;
+}
+#telephone,#email,#adress {
+    color: bisque;
+    font-size: 18px;
+    font-weight: bolder;
+
+    margin-top: 7px;
+    text-align: center;
 }
