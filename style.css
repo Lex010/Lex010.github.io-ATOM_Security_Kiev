@@ -29,7 +29,7 @@ header {
     height: 30px;
     background: radial-gradient(rgb(17, 17, 17), #444 );
     border: bisque solid 2px;
-    border-radius: 3px;
+    border-radius: 10px;
 
     color: bisque;
     text-align: center;
@@ -51,7 +51,7 @@ header {
     height: 30px;
     background: radial-gradient(rgb(17, 17, 17), #444 );
     border: bisque solid 2px;
-    border-radius: 3px;
+    border-radius: 7px;
 
     color: bisque;
     text-align: center;
@@ -151,7 +151,7 @@ border-radius: 5px;
 .for_text_two {
     display: flex;
     justify-content: center;
-    top: 650px;
+    top: 750px;
     position: absolute;
     max-width: 390px;
    
@@ -169,7 +169,7 @@ border-radius: 5px;
 .for_text_three {
     display: flex;
     justify-content: center;
-    top: 1050px;
+    top: 1200px;
     position: absolute;
     max-width: 390px;
    
@@ -181,4 +181,8 @@ border-radius: 5px;
 .li_detective_services {
     line-height: 1.3em;
     font-weight: bolder;
+}
+/**/
+#footer {
+
 }
