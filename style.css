@@ -69,11 +69,11 @@ header {
 .header_href {
 display: flex;
 justify-content: space-evenly;
-
+margin-right: 10%;                   /*отступ чтоб выбор языка не нависал*/
 }
 .header_href_txt {
 text-decoration: none;
-font-size: 30px;
+font-size: 26px;
 color: bisque;
 
 }
@@ -122,5 +122,28 @@ border-radius: 5px;
     0 -1px 1px #000;
     
     position: absolute;
-    top: 300px;
+    top: 200px;
+
+    line-height: 40px;
+    height: 200px;      /* фиксация высоты дива */
+    overflow-x:hidden; /*текст не выходит за рамки дива но пропадет если выйдет за рамки*/
+}
+.for_text {
+    display: flex;
+    justify-content: center;
+   
+}
+.text { 
+    position: absolute;
+    top: 450px;
+    text-align: center;
+
+    font-size: 30px;   
+    font-weight: 700;
+    background-color: rgba(240, 248, 255, 0.466);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+   /* height: 385px;*/ /*высота в телефонном режиме*/
 }
