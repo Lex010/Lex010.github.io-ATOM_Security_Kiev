@@ -14,6 +14,26 @@ header {
    position: fixed;
    z-index: 1000;
 }
+#lang_cont {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 45px;
+    margin-right: 45px;
+    
+}
+#language {
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(rgb(17, 17, 17), #444 );
+    border: bisque solid 2px;
+    border-radius: 3px;
+
+    color: bisque;
+    text-align: center;
+    line-height: 30px;   /*для выравнивания текста*/
+    
+    
+}
 #first {
     margin-top: 120px;
    /**/ position: absolute;
