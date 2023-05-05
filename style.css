@@ -83,10 +83,10 @@ color: bisque;
    /**/ position: absolute;
 
 
- background: radial-gradient(bisque,#333 );
-/*background-image: url(istockphoto-520946900-612x612.jpg);
+ /*background: radial-gradient(bisque,#333 );*/
+background-image: url(bg.jpg);
 background-repeat: no-repeat;
-background-size: cover;*/
+background-size: cover;/**/
 border-radius: 3px;
 
 height: 1600px;
