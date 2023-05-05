@@ -148,3 +148,37 @@ border-radius: 5px;
 
    /* height: 385px;*/ /*высота в телефонном режиме*/
 }
+.for_text_two {
+    display: flex;
+    justify-content: center;
+    top: 650px;
+    position: absolute;
+    max-width: 390px;
+   
+}
+.power_serwices {
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.li_power_serwices {
+    line-height: 1.3em;
+    font-weight: bolder;
+}
+/**/
+.for_text_three {
+    display: flex;
+    justify-content: center;
+    top: 1050px;
+    position: absolute;
+    max-width: 390px;
+   
+}
+.detective_services {
+    font-size: 20px;
+    font-weight: bold;
+}
+.li_detective_services {
+    line-height: 1.3em;
+    font-weight: bolder;
+}
