@@ -172,11 +172,16 @@ background-size: 330px 120px;
 
     font-size: 20px;   
     font-weight: 700;
-    background-color: rgba(240, 248, 255, 0.466);
+    /*background-color: rgba(240, 248, 255, 0.466);*/
     border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
 
+    background-image: url(test_gif.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    color: aliceblue;
    /* height: 385px;*/ /*высота в телефонном режиме*/
 }
 .for_text_two {
@@ -191,6 +196,15 @@ background-size: 330px 120px;
     font-size: 20px;
     font-weight: bold;
    
+    color: bisque;
+    text-align: center;
+    text-shadow: 1px 0 1px #000, /*контур цифры */
+    0 3px 3px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+
+    background-color: #3333339d;
+    border-radius: 3px;
 }
 .li_power_serwices {
     line-height: 1.3em;
@@ -208,6 +222,16 @@ background-size: 330px 120px;
 .detective_services {
     font-size: 20px;
     font-weight: bold;
+
+    color: bisque;
+    text-align: center;
+    text-shadow: 1px 0 1px #000, /*контур цифры */
+    0 3px 3px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+
+    background-color: rgba(211, 116, 0, 0.521);
+    border-radius: 3px;
 }
 .li_detective_services {
     line-height: 1.3em;
