@@ -8,6 +8,7 @@ const services = document.getElementById('first_sub')
 const enRuUa = document.getElementById('ru_en_ua')
 const ua = document.getElementById('UA')
 const ru = document.getElementById('RU')
+const en = document.getElementById('EN')
 
 const fs1 = document.getElementById('fs_1')
 const fs2 = document.getElementById('fs_2')
@@ -58,7 +59,7 @@ ua.onclick = function() {
      fs3.textContent = 'Приватна охорона.'
      fs4.textContent = 'Допомога у вирішенні конфліктних ситуацій.'
 
-     text1.textContent = 'Пропонуемо комплексні та нестандартні рішення щодо охорони об`єктів, приватних осіб, бізнесу, різних заходів тощо.'
+     text1.textContent = "Пропонуемо комплексні та нестандартні рішення щодо охорони об'єктів, приватних осіб, бізнесу, різних заходів тощо."
      text2.textContent = 'Готові розглянути будь-яку ситуацію, що склалася. Співпрацюємо із зарубіжними країнами Європи.'
 
      powerSerwices[0].textContent = 'Сфери послуг силової підтримки:'
@@ -111,15 +112,53 @@ ru.onclick = function() {
      liPowerSerwices[7].textContent = 'Выселение проблемных арендаторов;'
      liPowerSerwices[8].textContent = 'Мы всегда на стороне клиента.'
 
-     detectiveServices[0].textContent = 'Детективні послуги:'
+     detectiveServices[0].textContent = 'Детективные услуги:'
 
-     liDetectiveServices[0].textContent = 'Зовнішнє спостереження;'
-     liDetectiveServices[1].textContent = 'Виявлення подружньої невірності;'
-     liDetectiveServices[2].textContent = 'Розшук людей;'
-     liDetectiveServices[3].textContent = 'Збір інформації;'
-     liDetectiveServices[4].textContent = 'Проведення розслідувань;'
+     liDetectiveServices[0].textContent = 'Наружное наблюдение;'
+     liDetectiveServices[1].textContent = 'Выявление супружеской неверности;'
+     liDetectiveServices[2].textContent = 'Поиск людей;'
+     liDetectiveServices[3].textContent = 'Сбор информации;'
+     liDetectiveServices[4].textContent = 'Проведение расследований;'
 
      telephone.textContent = 'Телефон: +38 097 744 42 96;'
-     email.textContent = 'Пошта: atom.kiev.safety@gmail.com;'
-     adress.textContent = 'Адреса: м.Київ, проспект Соборності 2/1;'
+     email.textContent = 'Почта: atom.kiev.safety@gmail.com;'
+     adress.textContent = 'Адрес: г.Киев, проспект Соборности 2/1;'
+};
+// закончилась функция перевода на RU
+en.onclick = function() {
+    buttonContact[0].textContent = 'Our services'
+    buttonContact[1].textContent = 'Contacts'
+    enRuUa.textContent = 'Eng'
+
+     fs1.textContent = 'Detective services.'
+     fs2.textContent = 'Business security.'
+     fs3.textContent = 'Bodyguard.'
+     fs4.textContent = 'Assistance in resolving conflict situations.'
+
+     text1.textContent = 'We offer comprehensive and non-standard solutions for the protection of objects, individuals, businesses, and various events.'
+     text2.textContent = 'Ready to deal with any situation. We cooperate with European security services.'
+
+     powerSerwices[0].textContent = 'Strength Support Services:'
+
+     liPowerSerwices[0].textContent = 'Power support in resolving conflict situations;'
+     liPowerSerwices[1].textContent = 'Accompanying and meeting individuals, groups of people;'
+     liPowerSerwices[2].textContent = 'Security for various events: birthdays, weddings, concerts, etc.;'
+     liPowerSerwices[3].textContent = 'Support in the fight against illegal building;'
+     liPowerSerwices[4].textContent = 'Rapid Response Team;'
+     liPowerSerwices[5].textContent = 'Physical protection individuals, including women and children;'
+     liPowerSerwices[6].textContent = 'Business security - physical assistance and legal assistance;'
+     liPowerSerwices[7].textContent = 'Eviction of troubled tenants;'
+     liPowerSerwices[8].textContent = "We are always on the client's side."
+
+     detectiveServices[0].textContent = 'Detective services:'
+
+     liDetectiveServices[0].textContent = 'Outdoor surveillance;'
+     liDetectiveServices[1].textContent = 'Identification of adultery;'
+     liDetectiveServices[2].textContent = 'Search for people;'
+     liDetectiveServices[3].textContent = 'Collection of information;'
+     liDetectiveServices[4].textContent = 'Conducting investigations;'
+
+     telephone.textContent = 'Telephone: +38 097 744 42 96;'
+     email.textContent = 'Mail: atom.kiev.safety@gmail.com;'
+     adress.textContent = 'Address: Kiev, Prospekt Sobornosti 2/1;'
 };
