@@ -17,8 +17,10 @@ const text1 = document.getElementById('text_1')
 const text2 = document.getElementById('text_2')
 
 const powerSerwices = document.getElementsByClassName('power_serwices') //[0]
-
 const liPowerSerwices = document.getElementsByClassName('li_power_serwices') //[0,1,2,3,4,5,6,7,8]
+
+const detectiveServices = document.getElementsByClassName('detective_services') //[0]
+const liDetectiveServices = document.getElementsByClassName('li_detective_services') //[0,1,2,3,4]
 
 //       //       //         //          //
 //
@@ -69,13 +71,26 @@ ua.onclick = function() {
      liPowerSerwices[6].textContent = 'Охорона бізнесу - слова та юридична допомога;'
      liPowerSerwices[7].textContent = 'Виселення проблемних орендарів;'
      liPowerSerwices[8].textContent = 'Ми завжди на стороні кліента.'
+
+     detectiveServices[0].textContent = 'Детективні послуги:'
+
+     liDetectiveServices[0].textContent = 'Зовнішнє спостереження;'
+     liDetectiveServices[1].textContent = 'Виявлення подружньої невірності;'
+     liDetectiveServices[2].textContent = 'Розшук людей;'
+     liDetectiveServices[3].textContent = 'Збір інформації;'
+     liDetectiveServices[4].textContent = 'Проведення розслідувань;'
+
+     telephone.textContent = 'Телефон: +38 097 744 42 96;'
+     email.textContent = 'Пошта: atom.kiev.safety@gmail.com;'
+     adress.textContent = 'Адреса: м.Київ, проспект Соборності 2/1;'
     //
    /* 
     
-    
-   
 
-     
-    <li class="li_power_serwices">Мы всегда на стороне клиента.</li>    * */
+       
+<div id="telephone">Телефон: +38 097 744 42 96;</div>
+    <div id="email">Почта: atom.kiev.safety@gmail.com;</div>
+    <div id="adress">Адресс: г.Киев, проспект Соборности 2/1;</div>
+      * */
 
 }
