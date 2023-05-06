@@ -7,6 +7,7 @@ const services = document.getElementById('first_sub')
 //привязка для замены текста при смене языка
 const enRuUa = document.getElementById('ru_en_ua')
 const ua = document.getElementById('UA')
+const ru = document.getElementById('RU')
 
 const fs1 = document.getElementById('fs_1')
 const fs2 = document.getElementById('fs_2')
@@ -46,7 +47,7 @@ buttonContact[0].onclick = function() {
     setTimeout(backToBisqitServ,500)
 }
 //
-//код для замены текста при смене языка
+                //код для замены текста при смене языка
 ua.onclick = function() {
     buttonContact[0].textContent = 'Наші послуги'
     buttonContact[1].textContent = 'Контакти'
@@ -83,14 +84,42 @@ ua.onclick = function() {
      telephone.textContent = 'Телефон: +38 097 744 42 96;'
      email.textContent = 'Пошта: atom.kiev.safety@gmail.com;'
      adress.textContent = 'Адреса: м.Київ, проспект Соборності 2/1;'
-    //
-   /* 
-    
+};
+// закончилась функция перевода на укр
+ru.onclick = function() {
+    buttonContact[0].textContent = 'Наши услуги'
+    buttonContact[1].textContent = 'Контакты'
+    enRuUa.textContent = 'Рус'
 
-       
-<div id="telephone">Телефон: +38 097 744 42 96;</div>
-    <div id="email">Почта: atom.kiev.safety@gmail.com;</div>
-    <div id="adress">Адресс: г.Киев, проспект Соборности 2/1;</div>
-      * */
+     fs1.textContent = 'Детективные услуги.'
+     fs2.textContent = 'Безопастность бизнеса.'
+     fs3.textContent = 'Личная охрана.'
+     fs4.textContent = 'Помощь в решении конфликтных ситуаций.'
 
-}
+     text1.textContent = 'Предлагаем комплексные и нестандартные решения относительно охраны объектов, частных лиц, бизнеса, различных мероприятий.'
+     text2.textContent = 'Готовы рассмотреть любую сложившеюся ситуацию. Сотрудничаем со странами Европы.'
+
+     powerSerwices[0].textContent = 'Сферы услуг силовой поддержки:'
+
+     liPowerSerwices[0].textContent = 'Силовая поддержка в решении конфликтных ситуаций;'
+     liPowerSerwices[1].textContent = 'Сопровождение и встреча частных лиц, групп людей;'
+     liPowerSerwices[2].textContent = 'Охрана различных мероприятий: дни рождения, свадьбы, концерты и т.д.;'
+     liPowerSerwices[3].textContent = 'Поддержка в борьбе с незаконной застройкой;'
+     liPowerSerwices[4].textContent = 'Группа быстрого реагирования;'
+     liPowerSerwices[5].textContent = 'Личная охрана физ. лиц, в том числе женщин и детей;'
+     liPowerSerwices[6].textContent = 'Охрана бизнеса - силовая и юридическая помощь;'
+     liPowerSerwices[7].textContent = 'Выселение проблемных арендаторов;'
+     liPowerSerwices[8].textContent = 'Мы всегда на стороне клиента.'
+
+     detectiveServices[0].textContent = 'Детективні послуги:'
+
+     liDetectiveServices[0].textContent = 'Зовнішнє спостереження;'
+     liDetectiveServices[1].textContent = 'Виявлення подружньої невірності;'
+     liDetectiveServices[2].textContent = 'Розшук людей;'
+     liDetectiveServices[3].textContent = 'Збір інформації;'
+     liDetectiveServices[4].textContent = 'Проведення розслідувань;'
+
+     telephone.textContent = 'Телефон: +38 097 744 42 96;'
+     email.textContent = 'Пошта: atom.kiev.safety@gmail.com;'
+     adress.textContent = 'Адреса: м.Київ, проспект Соборності 2/1;'
+};
