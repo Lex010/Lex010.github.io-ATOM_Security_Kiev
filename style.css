@@ -19,11 +19,15 @@ header {
 
    position: fixed;
    z-index: 1000;
+
+   display: flex;
+  
 }
 #lang_cont {
     position: relative;
     display: inline-block;
-    margin-left: 90%;
+
+    flex: 1;
 }
  #chosen_lan {
     position: absolute;
@@ -73,18 +77,18 @@ header {
 }
 /*********************************************/
 .header_href {
-   height: 70px;
-   
-
+ flex: 9; 
+    
 display: flex;
-justify-content: space-evenly;
-margin-right: 10%;                   /*отступ чтоб выбор языка не нависал*/
 }
 .header_href_txt {
 text-decoration: none;
 font-size: 26px;
 color: bisque;
+flex: 1 1;
+text-align: center;
 
+margin-top: 30px;/*отступ для позиции по центру*/
 }
 /********************************************/
 #first {
