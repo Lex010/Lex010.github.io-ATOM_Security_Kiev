@@ -13,6 +13,13 @@ const fs2 = document.getElementById('fs_2')
 const fs3 = document.getElementById('fs_3')
 const fs4 = document.getElementById('fs_4')
 
+const text1 = document.getElementById('text_1')
+const text2 = document.getElementById('text_2')
+
+const powerSerwices = document.getElementsByClassName('power_serwices') //[0]
+
+const liPowerSerwices = document.getElementsByClassName('li_power_serwices') //[0,1,2,3,4,5,6,7,8]
+
 //       //       //         //          //
 //
 function backToBisqit () {       
@@ -47,6 +54,28 @@ ua.onclick = function() {
      fs2.textContent = 'Безпека бізнезу.'
      fs3.textContent = 'Приватна охорона.'
      fs4.textContent = 'Допомога у вирішенні конфліктних ситуацій.'
-    //services.textContent = '- Детективні послуги. /b- Безпека бізнезу. <br>- Приватна охорона. <br>- Допомога у вирішенні конфліктних ситуацій.'
+
+     text1.textContent = 'Пропонуемо комплексні та нестандартні рішення щодо охорони об`єктів, приватних осіб, бізнесу, різних заходів тощо.'
+     text2.textContent = 'Готові розглянути будь-яку ситуацію, що склалася. Співпрацюємо із зарубіжними країнами Європи.'
+
+     powerSerwices[0].textContent = 'Сфери послуг силової підтримки:'
+
+     liPowerSerwices[0].textContent = 'Силова підтримка у вирішенні конфліктних ситуацій;'
+     liPowerSerwices[1].textContent = 'Супровід та зустріч приватних осіб, групи людей;'
+     liPowerSerwices[2].textContent = 'Охорона різних заходів: днів народжень, весіль, концертів тощо;'
+     liPowerSerwices[3].textContent = 'Підтримка у боротьбі з незаконною забудовою;'
+     liPowerSerwices[4].textContent = 'Група швидкого реагування;'
+     liPowerSerwices[5].textContent = 'Особова охорона фізичних осіб, у тому числі дітей, жінок;'
+     liPowerSerwices[6].textContent = 'Охорона бізнесу - слова та юридична допомога;'
+     liPowerSerwices[7].textContent = 'Виселення проблемних орендарів;'
+     liPowerSerwices[8].textContent = 'Ми завжди на стороні кліента.'
+    //
+   /* 
+    
+    
+   
+
+     
+    <li class="li_power_serwices">Мы всегда на стороне клиента.</li>    * */
 
 }
