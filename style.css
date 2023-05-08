@@ -116,7 +116,7 @@ background-repeat: no-repeat;
 background-size: cover;*/
 border-radius: 3px;
 
-height: 1600px;
+height: 1300px;
 width: 100%;
 }
 #space_under_fixed {
@@ -253,7 +253,7 @@ background-size: 330px 120px;
 }
 /**/
 #footer {
-    height: 110px;
+    height: 140px;
     width: 100%;
 
 /*top: 1710px;                 отступ
@@ -261,7 +261,39 @@ position: absolute;*/
 
 background-color: #333;
 border-top:  rgb(211, 116, 0) solid 3px;
+
+display: flex;
 }
+#footer_a {
+flex: 9;
+}
+#footer_b {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+}
+.footer_messangers {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+     cursor: pointer;
+   /* border: #000 solid 1px;*/
+}
+#telegram {
+    background-image: url(imgMessanger/telegram.png);
+    background-size: 30px 30px;
+}
+#watsapp {
+    background-size: 30px 30px;
+    background-image: url(imgMessanger/watsapp.png);
+}
+#viber {
+    background-size: 30px 30px;
+    background-image: url(imgMessanger/viber.png);
+}
+/**/
 #telephone,#email,#adress {
     color: bisque;
     font-size: 18px;
@@ -269,4 +301,5 @@ border-top:  rgb(211, 116, 0) solid 3px;
 
     margin-top: 7px;
     text-align: center;
+    padding: 3px;
 }

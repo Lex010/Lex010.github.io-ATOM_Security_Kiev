@@ -38,7 +38,7 @@ buttonContact[1].onclick = function() {
     telephone.style.color = 'rgb(211, 116, 0)'
     email.style.color = 'rgb(211, 116, 0)'
     adress.style.color = 'rgb(211, 116, 0)'
-    setTimeout(backToBisqit,500)
+    setTimeout(backToBisqit,1000)
 }
 //
 function backToBisqitServ () {       
@@ -46,7 +46,7 @@ function backToBisqitServ () {
 }
 buttonContact[0].onclick = function() {
     services.style.color = 'rgb(211, 116, 0)'
-    setTimeout(backToBisqitServ,500)
+    setTimeout(backToBisqitServ,1000)
 }
 //
                 //код для замены текста при смене языка
