@@ -6,6 +6,7 @@ const adress = document.getElementById('adress')
 const services = document.getElementById('first_sub')
 //привязка для замены текста при смене языка
 const enRuUa = document.getElementById('ru_en_ua')
+const language = document.getElementById('language')
 const ua = document.getElementById('UA')
 const ru = document.getElementById('RU')
 const en = document.getElementById('EN')
