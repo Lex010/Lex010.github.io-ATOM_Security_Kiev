@@ -1,4 +1,4 @@
-const buttonContact = document.getElementsByClassName('header_href_txt')     //[0] [1]
+const buttonContact = document.getElementsByClassName('header_href_txt_a')     //[0] [1]
 const telephone = document.getElementById('telephone')
 const email = document.getElementById('email')
 const adress = document.getElementById('adress')

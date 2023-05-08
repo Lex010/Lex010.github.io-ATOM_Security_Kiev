@@ -10,7 +10,7 @@ body {
 header {
     height: 80px;
     width: 100%;
-    background: radial-gradient(#444,rgb(17, 17, 17) );
+    background: radial-gradient(#4444445d,rgba(17, 17, 17, 0.411) );
     border: rgb(211, 116, 0) solid 3px;
     border-radius: 3px;
    border-left: none;
@@ -59,7 +59,7 @@ header {
 #language_main {
     width: 30px;
     height: 30px;
-    background: radial-gradient(rgb(17, 17, 17), #444 );
+    background: radial-gradient(rgb(17, 17, 17), #444444 );
     border: rgb(211, 116, 0) solid 2px;
     border-radius: 5px;
 
@@ -82,13 +82,23 @@ header {
 display: flex;
 }
 .header_href_txt {
-text-decoration: none;
-font-size: 26px;
-color: bisque;
 flex: 1 1;
 text-align: center;
 
 margin-top: 30px;/*отступ для позиции по центру*/
+}
+.header_href_txt_a {
+    text-decoration: none;
+    font-size: 26px;
+    color: bisque;  
+
+    border: 1px solid rgba(211, 116, 0, 0.418);
+    padding: 10px;
+    border-radius: 10px;
+    background: radial-gradient(rgb(17, 17, 17), #444444 );
+}
+.header_href_txt_a:hover {
+    background: radial-gradient(rgba(17, 17, 17, 0.384), #44444450 );
 }
 /********************************************/
 #first {
@@ -112,6 +122,8 @@ width: 100%;
 #space_under_fixed {
     height: 78px;
     width: 100%;
+
+    background: radial-gradient(#444444,rgb(17, 17, 17) )
 }
 #h1 {
     display: flex;
@@ -204,7 +216,8 @@ background-size: 330px 120px;
     0 -1px 1px #000;
 
     background-color: #3333339d;
-    border-radius: 3px;
+    border-radius: 20px;
+    padding: 5px;
 }
 .li_power_serwices {
     line-height: 1.3em;
@@ -231,7 +244,8 @@ background-size: 330px 120px;
     0 -1px 1px #000;
 
     background-color: rgba(211, 116, 0, 0.521);
-    border-radius: 3px;
+    border-radius: 20px;
+    padding: 7px;
 }
 .li_detective_services {
     line-height: 1.3em;
