@@ -163,3 +163,5 @@ en.onclick = function() {
      email.textContent = 'Mail: atom.kiev.safety@gmail.com;'
      adress.textContent = 'Address: Kiev, Prospekt Sobornosti 2/1;'
 };
+/** по буквенное появление текста */
+//function telephonByLeter ()
