@@ -116,7 +116,7 @@ background-repeat: no-repeat;
 background-size: cover;*/
 border-radius: 3px;
 
-height: 1300px;
+/*height: 1300px; убрал фиксацию высоты страницы закоментив эту строку*/
 width: 100%;
 }
 #space_under_fixed {
@@ -266,6 +266,52 @@ border-bottom-right-radius: 30%;
     line-height: 1.3em;
     font-weight: bolder;
 }
+/**/
+.trouble_shuting {
+    line-height: 1.3em;
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: center;
+
+    text-shadow: 1px 0 1px rgba(211, 116, 0, 0.521), /*контур цифры */
+    0 3px 3px rgba(211, 116, 0, 0.521), 
+    -1px 0 1px rgba(211, 116, 0, 0.521), 
+    0 -1px 1px rgba(211, 116, 0, 0.521);
+
+   border-radius: 20px;
+    background-image: url(bg_img/testbgLab.png);
+    padding: 3px;
+
+    max-width: 390px;
+}
+.trouble_shuting_text {
+    max-width: 390px;
+    margin: 10px;
+
+    line-height: 1.3em;
+    font-weight: bolder;
+    font-size: 18px;
+
+    background-image: url(bg_img/peopleInImg.jpg);
+    background-size: cover;
+    height: 25vh;
+    border-radius: 20px;
+    padding: 10px;
+
+    color: bisque;
+    text-shadow: 1px 0 1px #000, /*контур цифры */
+    0 3px 3px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+}
+/*.just_for_img {
+    background-image: url(bg_img/lockOnImg.jpg);
+    background-size: cover;
+    min-height: 200px;
+    min-width: 200px;
+    max-height: 300px;
+    max-width: 390px;
+}*/
 /**/
 #footer {
    /* height: 22vh;    не фиксирую размер футера закоментив эту строку*/
