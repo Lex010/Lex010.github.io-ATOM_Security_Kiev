@@ -1,4 +1,6 @@
 const buttonContact = document.getElementsByClassName('header_href_txt_a')     //[0] [1]
+
+
 const telephone = document.getElementById('telephone')
 const email = document.getElementById('email')
 const adress = document.getElementById('adress')
@@ -33,12 +35,72 @@ function backToBisqit () {
     adress.style.color = 'bisque'
 }
                                                        //при нажати на "контакты" изменяет цвет букв не на долго
+buttonContact[1].onclick = function() {   
 
-buttonContact[1].onclick = function() {
+/** по буквенное появление текста *///////////////////////////////////////////////////////////////////////////////
+let i = 0;
+let speed = 10;
+let txtLength =  telephone.textContent.length
+let txt = telephone.textContent
+telephone.textContent = ''
+
+function telephoneWriter() {
+    if (i < txt.length) {
+        telephone.textContent = telephone.textContent + txt.charAt(i);
+      i++;
+      setTimeout(telephoneWriter, speed);
+    };
+  };
+  telephoneWriter() 
+  ////////////////////////////
+  buttonContact[1].disabled = true;      // отключение кнопки "контакты"
+  function  buttonContactTimeDis () {
+    buttonContact[1].disabled = false;
+  };
+  ////////////////////////////  отрисовка букв "почты"
+  let ii = 0;
+  let txtLength1 =  email.textContent.length
+  let txt1 = email.textContent
+  email.textContent = ''
+
+function emailWriter() {
+  if (ii < txt1.length) {
+    email.textContent = email.textContent + txt1.charAt(ii);
+    ii++;
+    setTimeout(emailWriter, 10);
+  };
+};
+setTimeout(emailWriter, txtLength * 10)
+///////////////////////////////////////// отрисовка букв "адреса"
+let iii = 0;
+let txtLength2 =  adress.textContent.length
+let txt2 = adress.textContent
+adress.textContent = ''
+
+function adressWriter() {
+if (iii < txt2.length) {
+  adress.textContent = adress.textContent + txt2.charAt(iii);
+  iii++;
+  setTimeout(adressWriter, 10);
+};
+};
+let timeAdress = (txtLength * 10) + (txtLength1 * 10)
+setTimeout(adressWriter, timeAdress)
+///////////////////////////////////////////////////////////
+
+
+  setTimeout(buttonContactTimeDis, (txtLength * 10) + (txtLength1 * 10) + (txtLength2 * 10))     //включение возможности клика по кнопке "контакты"
+  
+//////////////////////////////////////////
+
+// конец функции для по буквенного появления почты
+
+///////////////////////////////////
     telephone.style.color = 'rgb(211, 116, 0)'
     email.style.color = 'rgb(211, 116, 0)'
     adress.style.color = 'rgb(211, 116, 0)'
-    setTimeout(backToBisqit,1000)
+    setTimeout(backToBisqit,1200)
+    
 }
 //
 function backToBisqitServ () {       
@@ -163,5 +225,3 @@ en.onclick = function() {
      email.textContent = 'Mail: atom.kiev.safety@gmail.com;'
      adress.textContent = 'Address: Kiev, Prospekt Sobornosti 2/1;'
 };
-/** по буквенное появление текста */
-//function telephonByLeter ()
