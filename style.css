@@ -172,7 +172,17 @@ border-bottom-right-radius: 30%;
     line-height: 40px;
     height: 200px;     /*  фиксация высоты дива */
     overflow-x:hidden; /*текст не выходит за рамки дива но пропадет если выйдет за рамки*/
+
+    background-image: url(bg_img/faceInImg.jpg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+#fs_1,#fs_2,#fs_3,#fs_4 {
+    background-color: #33333396;
+    border-radius: 10px;
+    padding: 3px;
+}/**/
 .for_text {
    /**/ display: flex;
     /**/justify-content: center;
@@ -273,13 +283,14 @@ border-bottom-right-radius: 30%;
     font-size: 18px;
     text-align: center;
 
-    text-shadow: 1px 0 1px rgba(211, 116, 0, 0.521), /*контур цифры */
-    0 3px 3px rgba(211, 116, 0, 0.521), 
-    -1px 0 1px rgba(211, 116, 0, 0.521), 
-    0 -1px 1px rgba(211, 116, 0, 0.521);
+    text-shadow: 1px 0 1px grey, /*контур цифры */
+    0 3px 3px grey, 
+    -1px 0 1px grey, 
+    0 -1px 1px grey;
 
-   border-radius: 20px;
-    background-image: url(bg_img/testbgLab.png);
+    border-radius: 20px;
+    /*background-image: url(bg_img/testbgLab.png);*/
+    background-color: rgb(189, 189, 189);
     padding: 3px;
 
     max-width: 390px;
@@ -294,7 +305,7 @@ border-bottom-right-radius: 30%;
 
     background-image: url(bg_img/peopleInImg.jpg);
     background-size: cover;
-    height: 25vh;
+    min-height: 25vh;
     border-radius: 20px;
     padding: 10px;
 
