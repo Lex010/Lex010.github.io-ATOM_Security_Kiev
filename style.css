@@ -153,6 +153,8 @@ width: 330px;
 background-image: url(logo0002.jpg);
 background-size: 330px 120px;
 
+border-bottom-left-radius: 30%;
+border-bottom-right-radius: 30%;
 /*border: #000 solid 5px;*/
 /*border-radius: 5px;*/
 }
@@ -181,6 +183,7 @@ background-size: 330px 120px;
    /* top: 450px;*/
     text-align: center;
     max-width: 390px;
+    
 
     font-size: 20px;   
     font-weight: 700;
@@ -191,7 +194,7 @@ background-size: 330px 120px;
 
     background-image: url(test_gif.gif);
     background-repeat: no-repeat;
-    background-size: 100%;
+    /*background-size: 100%;    убрал выступы текста за пределы гифки когда закоментил это*/
 
     color: aliceblue;
    /* height: 385px;*/ /*высота в телефонном режиме*/
@@ -222,6 +225,8 @@ background-size: 330px 120px;
     padding: 5px;*/
 }
 .power_serwices_background {
+    margin-top: 10px;
+
     background-color: #3333339d;
     border-radius: 20px;
     padding: 5px;
@@ -263,7 +268,7 @@ background-size: 330px 120px;
 }
 /**/
 #footer {
-    height: 22vh;
+   /* height: 22vh;    не фиксирую размер футера закоментив эту строку*/
     width: 100%;
 
 /*top: 1710px;                 отступ
@@ -302,6 +307,7 @@ flex: 9;
 #viber {
     background-size: 30px 30px;
     background-image: url(imgMessanger/viber.png);
+    margin-bottom: 10px;
 }
 /**/
 #telephone,#email,#adress {
@@ -309,7 +315,7 @@ flex: 9;
     font-size: 18px;
     font-weight: bolder;
 
-    margin-top: 7px;
+    margin-top: 10px;
     text-align: center;
     padding: 3px;
 }
