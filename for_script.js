@@ -35,7 +35,7 @@ function backToBisqit () {
     adress.style.color = 'bisque'
 }
                                                        //при нажати на "контакты" изменяет цвет букв не на долго
-buttonContact[1].onclick = function() {   
+buttonContact[1].onclick = function() {    
 
 /** по буквенное появление текста *///////////////////////////////////////////////////////////////////////////////
 let i = 0;
