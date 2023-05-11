@@ -27,6 +27,9 @@ const liPowerSerwices = document.getElementsByClassName('li_power_serwices') //[
 const detectiveServices = document.getElementsByClassName('detective_services') //[0]
 const liDetectiveServices = document.getElementsByClassName('li_detective_services') //[0,1,2,3,4]
 
+const troubleShuting = document.getElementsByClassName('trouble_shuting') //[0]
+const troubleShutingText = document.getElementsByClassName('trouble_shuting_text') //[0]
+
 //       //       //         //          //
 //
 function backToBisqit () {       
@@ -145,6 +148,9 @@ ua.onclick = function() {
      liDetectiveServices[3].textContent = 'Збір інформації;'
      liDetectiveServices[4].textContent = 'Проведення розслідувань;'
 
+     troubleShuting[0].textContent = 'Траблшутинг. Вирішення складних і неможливих завдань.'
+     troubleShutingText[0].textContent = "Ми концентруємося на рішеннях, а не на проблемах, завжди і в усьому – об'єктивні та неупереджені, розглядаємо завдання абстрактно та по-новому, спрощуємо складні процеси та перетворюємо проблеми на можливості."
+
      telephone.textContent = 'Телефон: +38 097 744 42 96;'
      email.textContent = 'Пошта: atom.kiev.safety@gmail.com;'
      adress.textContent = 'Адреса: м.Київ, проспект Соборності 2/1;'
@@ -183,6 +189,9 @@ ru.onclick = function() {
      liDetectiveServices[3].textContent = 'Сбор информации;'
      liDetectiveServices[4].textContent = 'Проведение расследований;'
 
+     troubleShuting[0].textContent = 'Траблшутинг. Решение сложных и невозможных задач.'
+     troubleShutingText[0].textContent = "Мы концентрируемся на решениях, а не на проблемах, всегда и во всем – объективны и беспристрастны, рассматриваем задачи отвлеченно и по-новому, упрощаем сложные процессы и превращаем проблемы в возможности."
+
      telephone.textContent = 'Телефон: +38 097 744 42 96;'
      email.textContent = 'Почта: atom.kiev.safety@gmail.com;'
      adress.textContent = 'Адрес: г.Киев, проспект Соборности 2/1;'
@@ -220,6 +229,9 @@ en.onclick = function() {
      liDetectiveServices[2].textContent = 'Search for people;'
      liDetectiveServices[3].textContent = 'Collection of information;'
      liDetectiveServices[4].textContent = 'Conducting investigations;'
+
+     troubleShuting[0].textContent = 'Troubleshooting. Solving complex and impossible problems.'
+     troubleShutingText[0].textContent = "We focus on solutions, not problems, always and in everything - objective and impartial, we consider problems abstractly and in a new way, we simplify complex processes and turn problems into opportunities."
 
      telephone.textContent = 'Telephone: +38 097 744 42 96;'
      email.textContent = 'Mail: atom.kiev.safety@gmail.com;'
