@@ -109,10 +109,83 @@ setTimeout(adressWriter, timeAdress)
 function backToBisqitServ () {       
     services.style.color = 'bisque'
 }
+
 buttonContact[0].onclick = function() {
+   ////////////////////////////
+   buttonContact[0].disabled = true;      // отключение кнопки "контакты"
+   function  buttonOurServTimeDis () {
+     buttonContact[0].disabled = false;
+   };
+  //побуквенное появление текста 01
+  let i = 0
+  let text = fs1.textContent
+  let textLength = text.length
+  fs1.textContent = ''
+  
+  function fs1Func() {
+  if(i < textLength)
+  fs1.textContent += text[i]
+  i++;
+  setTimeout(fs1Func,10)
+  };
+  fs1Func()
+//<=
+
+//побуквенное появление текста 02
+let i2 = 0;
+let text2 = fs2.textContent
+let text2Length = text2.length
+fs2.textContent = ''
+
+function fs2Func() {
+  if( i2 < text2Length) 
+    fs2.textContent += text2[i2]
+    i2++;
+    setTimeout(fs2Func,10)
+}
+setTimeout(fs2Func, textLength * 10)
+//<=
+
+//побуквенное появление текста 03
+let i3 = 0;
+let text3 = fs3.textContent
+let text3Length = text3.length
+fs3.textContent = ''
+
+function fs3Func() {
+  if( i3 < text3Length) 
+    fs3.textContent += text3[i3]
+    i3++;
+    setTimeout(fs3Func,10)
+}
+setTimeout(fs3Func, (textLength * 10) + (text2Length * 10) )
+//<=
+
+//побуквенное появление текста 04
+/**let i4 = 0;
+let text4 = fs4.textContent
+let text4Length = text4.length
+fs4.textContent = ''
+
+function fs4Func() {
+  if( i4 < text4Length) 
+    fs4.textContent += text4[i4]
+    i4++;
+    setTimeout(fs4Func,10)
+}
+setTimeout(fs4Func, (textLength * 10) + (text2Length * 10) + (text3Length * 10) ) */
+//<=
+
+///////////////////////////////////////////////////////////
+
+
+setTimeout(buttonOurServTimeDis, (textLength * 10) + (text2Length * 10) + (text3Length * 10) )     //включение возможности клика по кнопке "контакты"
+  
+//////////////////////////////////////////
+
     services.style.color = 'rgb(211, 116, 0)'
     setTimeout(backToBisqitServ,1000)
-}
+};
 //
                 //код для замены текста при смене языка
 ua.onclick = function() {
